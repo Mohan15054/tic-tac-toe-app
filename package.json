@@ -1,0 +1,27 @@
+{
+  "name": "mohan-dev-site",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Mohan15054.github.io/mohan-dev-site",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+  "export": "next build",
+  "pages:deploy": "npm run export && gh-pages -d out",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.4.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "@eslint/eslintrc": "^3",
+    "gh-pages": "^6.1.1"
+  }
+}
